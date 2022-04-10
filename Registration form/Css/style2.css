@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    text-align: center;
+    
+}
+.container-box-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    font-size: 16pt;
+   
+}
+  
+
+.card-holder{
+    padding: 2rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   background-color: #29648a;
+   border-radius: 2rem;
+}
+.register-form{
+    font-size: 26pt;
+    padding: .25rem;
+}
+label{
+    line-height: 2.5rem;
+  
+    cursor: pointer;
+    font-size: 18pt;
+}
+input{
+    background-color: 	#aaabbb;
+    font-size: 18pt;
+    cursor: pointer;
+}
+button{
+    font-size: 18pt;
+    padding: .25rem;
+    background-color: burlywood;
+    margin-top: .89rem;
+
+}
+
+
+
